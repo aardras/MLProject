@@ -17,4 +17,8 @@ Full ML pipeline with functional frontend
 
 4) Model results
    - If multiple models are selected, comparison between models is shown and best performing model is highlighted.
-   - csv download of results is allowed  
+   - download .csv file of results
+
+to run program:
+for frontend - npm run dev
+for backend - uvicorn main:app --reload --port 8000
